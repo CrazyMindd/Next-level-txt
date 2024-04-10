@@ -421,9 +421,9 @@ async def txt_handler(bot: Client, m: Message):
         creditx = credit
     elif raw_text7 == '/skip':
         creditx = ''
-    elif raw_text7 == '/skip@drmsupdlBot':
+    elif raw_text7 == '/skip':
     	creditx = ''
-    elif raw_text7 == '/skip@drmsupdlBot ':
+    elif raw_text7 == '/skip ':
     	creditx = ''
     else:
         creditx = raw_text7
