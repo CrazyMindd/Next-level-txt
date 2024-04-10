@@ -1,7 +1,7 @@
 # PYRO BOT
 
 ## Deploy To Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AkRao47/Nextleveltxt)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CrazyMindd/Next-level-txt.git)
 
 ### .env
 ```sh
