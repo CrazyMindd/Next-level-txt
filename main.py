@@ -49,7 +49,7 @@ bot = Client(
 @bot.on_message(filters.command(["start"]))
 async def start_handler(bot: Client, m: Message):        
         editable = await m.reply_text(
-            "Hello 👋 **I am a simple video downloader bot**.\n\n**Developer** : GrootJI\n**Language** : Python\n**Framework** : Pyrogram\n\n/txt - **To download from TXT file.**\n/fix - **To fix url from text file.**\n/terms - **To know our our terms and conditions.**")
+            "Hello 👋 **I am a simple video downloader bot**.\n\n**Developer** : 𓊈𒆜🅲🆁🅰🆉🆈_🅼🅸🅽🅳𒆜𓊉\n**Language** : Python\n**Framework** : Pyrogram\n\n/txt - **To download from TXT file.**\n/fix - **To fix url from text file.**\n/terms - **To know our our terms and conditions.**")
             
 @bot.on_message(filters.command(["restart"]))
 async def restart_handler(bot: Client, m: Message):
@@ -163,11 +163,11 @@ async def stats(_,event: Message):
 @bot.on_message(filters.command(["terms"]))
 async def terms_han(bot: Client, m: Message):
 	
-	await m.reply_text("Dear user,\n\nWelcome to our video downloader bot on Telegram. Before you start using our bot, please read these terms and conditions carefully.\n\nBy using our bot, you agree to the following terms and conditions:\n\n1. Our bot is intended for personal, non-commercial use only. You are responsible for any content that you download through our bot and you should ensure that you have the necessary permissions and rights to use and share the content.\n\n2. Downloading copyrighted content through our bot is strictly prohibited. If we receive any complaints of copyright infringement, we reserve the right to take down the infringing content and terminate the user's access to our bot.\n\n3. We do not store any of your personal data or download history. Your privacy and security are important to us, and we have taken all necessary measures to ensure that your information is safe and protected.\n\n4. We reserve the right to suspend or terminate the bot's services at any time and for any reason.\n\n5. By using our bot, you agree to indemnify and hold us harmless from any claims, damages,\nor losses arising from your use of our bot.\n\nIf you have any questions or concerns about our terms and conditions, please contact us.\n\nThank you for using our video downloader bot on Telegram.\n\nBest regards,\n@Grootji_bot")
+	await m.reply_text("Dear user,\n\nWelcome to our video downloader bot on Telegram. Before you start using our bot, please read these terms and conditions carefully.\n\nBy using our bot, you agree to the following terms and conditions:\n\n1. Our bot is intended for personal, non-commercial use only. You are responsible for any content that you download through our bot and you should ensure that you have the necessary permissions and rights to use and share the content.\n\n2. Downloading copyrighted content through our bot is strictly prohibited. If we receive any complaints of copyright infringement, we reserve the right to take down the infringing content and terminate the user's access to our bot.\n\n3. We do not store any of your personal data or download history. Your privacy and security are important to us, and we have taken all necessary measures to ensure that your information is safe and protected.\n\n4. We reserve the right to suspend or terminate the bot's services at any time and for any reason.\n\n5. By using our bot, you agree to indemnify and hold us harmless from any claims, damages,\nor losses arising from your use of our bot.\n\nIf you have any questions or concerns about our terms and conditions, please contact us.\n\nThank you for using our video downloader bot on Telegram.\n\nBest regards,\n𓊈𒆜🅲🆁🅰🆉🆈_🅼🅸🅽🅳𒆜𓊉")
 	
 @bot.on_message(filters.command(["GR"])&(filters.chat(auth_users)))
 async def vision_pdf(bot: Client, m: Message):
-    editable = await m.reply_text("**Hello Dear,** I am Text File Downloader Bot.\nI can download **PDFs of vision** from text file one by one.\n\n**Developer: GrootJI** \n**Language:** Python\n**Framework:** 🔥Pyrogram\n\nNow Send Your **TXT File:-**\n")
+    editable = await m.reply_text("**Hello Dear,** I am Text File Downloader Bot.\nI can download **PDFs of vision** from text file one by one.\n\n**Developer: 𓊈𒆜🅲🆁🅰🆉🆈_🅼🅸🅽🅳𒆜𓊉** \n**Language:** Python\n**Framework:** 🔥Pyrogram\n\nNow Send Your **TXT File:-**\n")
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
